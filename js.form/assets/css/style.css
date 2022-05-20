@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.required::after {
+  content: "*";
+  color: red;
+}
+form > input {
+  display: block;
+  height: 20px;
+}
+button {
+  margin: 20px 100px;
+  background-color: rgb(60, 145, 117);
+  padding: 10px 30px;
+  border: none;
+  color: white;
+}
+input {
+  height: 30px;
+}
+.comment {
+  width: 345px;
+  height: 60px;
+}
+h1 {
+  background-color: rgb(60, 145, 117);
+  color: white;
+}
+form {
+  margin-top: 30px;
+}
